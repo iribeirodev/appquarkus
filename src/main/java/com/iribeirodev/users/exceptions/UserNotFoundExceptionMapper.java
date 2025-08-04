@@ -1,4 +1,4 @@
-package com.iribeirodev.exceptions;
+package com.iribeirodev.users.exceptions;
 
 import jakarta.ws.rs.core.Response;
 import jakarta.ws.rs.ext.ExceptionMapper;

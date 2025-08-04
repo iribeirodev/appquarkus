@@ -1,4 +1,4 @@
-package com.iribeirodev.entities;
+package com.iribeirodev.users.entities;
 
 import java.util.UUID;
 import io.quarkus.hibernate.orm.panache.PanacheEntityBase;

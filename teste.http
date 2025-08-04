@@ -1,0 +1,39 @@
+@userId = 463f75ac-e2d0-4984-a4ca-ed1163c67c30
+
+### Listar usuários (GET /users)
+GET http://localhost:8080/users?page=0&pageSize=10
+Accept: application/json
+
+###
+
+### Buscar usuário por ID (GET /users/{id})
+GET http://localhost:8080/users/{{userId}}
+Accept: application/json
+
+###
+
+### Criar usuário (POST /users)
+POST http://localhost:8080/users
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username": "itamar"
+}
+
+###
+
+### Atualizar usuário (PUT /users/{id})
+PUT http://localhost:8080/users/{{userId}}
+Content-Type: application/json
+Accept: application/json
+
+{
+  "username": "joao atualizado"
+}
+
+###
+
+### Deletar usuário (DELETE /users/{id})
+DELETE http://localhost:8080/users/{{userId}}
+Accept: application/json
